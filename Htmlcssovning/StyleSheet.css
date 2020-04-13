@@ -1,0 +1,104 @@
+﻿body {
+    padding: 0;
+    border: 10px solid grey;
+    margin: auto;
+    font-size: 100%;
+    font: bold 12px arial,verdana;
+    background-color: azure;
+    height: 10px;
+    background-image: linear-gradient(to right, pink, cadetblue);
+}
+
+header {
+    background-color: cadetblue;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  
+}
+#header img {
+    float: left;
+    margin-top: 10px;
+}
+/*title*/
+h1 {
+    color: floralwhite;
+    font-style: italic;
+    font-family: Britannic;
+    font-size: 150%;
+   
+}
+/*DEscription text*/
+h2 {
+    text-decoration: underline;
+    border-color: aquamarine;
+    font-style: italic;
+    font-size: 100%;
+}
+.Description {
+    background-color: lightslategrey;
+    font-style:oblique;
+    font-size:x-large;
+    font-family: 'Adobe Arabic';
+}
+
+h3 {
+    text-decoration: underline;
+    color: green;
+    font-style: oblique;
+    font-size: 200%;
+    animation-name: anim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+   
+}
+@keyframes anim {
+    20% {
+        background-color:lightgray;
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: palevioletred;
+        left: 200px;
+        top: 0px;
+    }
+
+    75% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+}
+h4 {
+    font-size: larger;
+    text-decoration: underline;
+    text-shadow: 0 0 5px blue;
+}
+h5 {
+    font-size: larger;
+    text-decoration: underline;
+    text-shadow: 0 0 5px blue;
+}
+h6 {
+    font-size: larger;
+    text-decoration: underline;
+    text-shadow: 0 0 5px blue;
+}
+.video {
+    width: 560px; 
+    height: 315px; 
+    position: relative;  
+    margin: auto; 
+}
+
+
+footer {
+    margin-top: 4px;
+    border-top: 5px;
+    height: 50px;
+    background-color: darkslategrey;
+}
+
